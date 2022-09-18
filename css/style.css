@@ -121,6 +121,10 @@ img{
     font-weight: 700;
 }
 
+.barra{
+    padding-top: 4rem;
+}
+
 /*--Navegacion enlace--*/
 
 .navegacion__enlace{
@@ -233,4 +237,12 @@ img{
 
 .cursos-titulo{
     font-size: 3.5rem;
+}
+
+/*--Footer--*/
+.footer{
+    background-color: var(--negro);
+    height: 15rem;
+    padding-top: 1rem;
+    margin-top: 7rem;
 }
