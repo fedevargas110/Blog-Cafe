@@ -37,6 +37,7 @@ a{
 
 h1, h2, h3, h4{
     font-family: var(--fuenteP);
+    line-height: 1.2;
 }
 
 h1{
@@ -196,4 +197,40 @@ img{
     font-size: 5rem;
 }
 
+.boton--secundario{
+    background-color: var(--colorP);
+}
 
+/*--Quitando viñetas--*/
+
+.cursos{
+    list-style: none;
+}
+
+.widget-curso{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.widget-curso__label{
+    font-family: var(--fuenteT);
+    font-weight: bold;
+}
+
+.widget-curso__info{
+    font-weight: normal;
+}
+
+.widget-curso:last-of-type{
+    border: none;
+    margin: none;
+}
+
+.widget-curso__label,
+.widget-curso__info{
+    font-size: 2rem;
+}
+
+.cursos-titulo{
+    font-size: 3.5rem;
+}
