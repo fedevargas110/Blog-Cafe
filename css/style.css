@@ -3,6 +3,7 @@
     --fuenteT: 'Abel', sans-serif;
 
     --colorP: #784D3C;
+    --gris: #E1E1E1;
     --colorS: #ffffff;
     --negro: #000000;
 }
@@ -25,7 +26,7 @@ body{
 /*--Globales--*/
 
 .contenedor{
-    max-width: 120rem;
+    max-width: 135rem;
     width: 90%;
     margin: 0 auto;
 }
@@ -134,3 +135,65 @@ img{
         gap: 2rem;
     }
 }
+
+@media (min-width:768px) {
+    .contenido-principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+
+/*--Entradas--*/
+
+.entrada{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type{
+    border: none;
+    margin: 0;
+}
+
+.entrada__contenido h4{
+    font-size: 5rem;
+}
+.entrada__contenido p{
+    font-size: 2.2rem;
+}
+
+/*--Boton--*/
+
+.boton{
+    display: block;
+    color: var(--colorS);
+    font-family: var(--fuenteT);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+@media (min-width:768px) {
+    .boton{
+        display: inline-block;
+    }
+}
+
+.boton--primario{
+    background-color: var(--negro);
+}
+
+/*--Titulos Blogs y Talleres--*/
+.blog__titulo{
+    font-size: 5rem;
+}
+
+.sidebar__titulo{
+    font-size: 5rem;
+}
+
+
