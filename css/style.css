@@ -240,9 +240,37 @@ img{
 }
 
 /*--Footer--*/
+@media (min-width:768px) {
+    .footer{
+        background-color: var(--negro);
+        height: 15rem;
+        padding-top: 1rem;
+        margin-top: 7rem;
+    }
+}
+
 .footer{
     background-color: var(--negro);
-    height: 15rem;
-    padding-top: 1rem;
-    margin-top: 7rem;
 }
+
+/*--Nosotros--*/
+
+@media (min-width:768px) {
+    
+    .contenido--principal{
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+    
+}
+
+.contenido--principal__texto{
+    font-size: 2.2rem;
+}
+
+.nosotros__titulo{
+    font-size: 5rem;
+}
+
