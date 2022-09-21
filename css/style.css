@@ -26,7 +26,7 @@ body{
 /*--Globales--*/
 
 .contenedor{
-    max-width: 135rem;
+    max-width: 120rem;
     width: 90%;
     margin: 0 auto;
 }
@@ -307,4 +307,26 @@ img{
 
 .cursos__titulo{
     font-size: 4rem;
+}
+
+/*--Entrada 1--*/
+@media (min-width:768px) {
+    .img-1{
+        max-width: 80%;
+        margin-left: 10rem;
+    }
+}
+/*--Entrada 2--*/
+@media (min-width:768px) {
+    .img-2{
+        max-width: 80%;
+        margin-left: 10rem;
+    }
+}
+/*--Entrada 3--*/
+@media (min-width:768px) {
+    .img-3{
+        max-width: 80%;
+        margin-left: 10rem;
+    }
 }
