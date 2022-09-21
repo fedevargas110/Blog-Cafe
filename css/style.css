@@ -26,7 +26,7 @@ body{
 /*--Globales--*/
 
 .contenedor{
-    max-width: 120rem;
+    max-width: 135rem;
     width: 90%;
     margin: 0 auto;
 }
@@ -180,6 +180,11 @@ img{
     text-transform: uppercase;
     margin-bottom: 2rem;
     font-weight: 700;
+    border: none;
+}
+
+.boton:hover{
+    cursor: pointer;
 }
 
 @media (min-width:768px) {
@@ -342,4 +347,31 @@ img{
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.formulario{
+    background-color: var(--colorS);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.campo__label{
+    flex: 0 0 9rem;
+    text-align: right;
+}
+
+.campo__field{
+    flex: 1;
+    border: 1px solid var(--gris);
+}
+
+.campo__field--textarea{
+    height: 15rem;
 }
