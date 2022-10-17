@@ -35,3 +35,30 @@ navegacion.appendChild(nuevoEnlace);
 
 
 console.log(nuevoEnlace);
+
+//document = window
+
+//Eventos
+
+window.addEventListener('load', function(){ // load espera a que el JS y los archivos que dependen del HTML esten listos.
+    console.log(1);
+});
+
+console.log(2)
+
+window.addEventListener('DOMContentLoaded', function(){// espera al HTML pero no a CSS e Imagenes.
+    console.log(3);
+});
+
+document.onscroll = function(){
+    console.log('scrolling....')
+}
+
+const btnEnviar = document.querySelector('.boton--primario');
+btnEnviar.addEventListener('click', function(){
+    console.log('ENVIANDO FORMULARIO..')
+})
+
+//preventDefault() es para prevenir que recargue la pagina y se pueden validar formularios entre otras cosas.
+// siempre que haya un addEventListener, onscroll, etc se le puede poner dentro de los parentesis de la function (e) de Evento 
+// y acceder a diferentes propiedades de ese elemento o eveno con el cual interaccionamos
