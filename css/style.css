@@ -338,6 +338,22 @@ img{
 
 /*--Pagina de Contacto--*/
 
+.error{
+    background-color: red;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--colorS);
+}
+
+.enviado{
+    background-color: green;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--colorS);
+}
+
 .titulo-contacto{
     font-size: 5rem;
 }
